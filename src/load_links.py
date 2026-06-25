@@ -9,7 +9,7 @@ from urllib.parse import urlparse, urlunparse
 
 import pandas as pd
 
-from config import INPUT_CSV, SUPPORTED_STORES
+from src.config import INPUT_CSV, SUPPORTED_STORES
 
 
 def clean_url(url: str) -> str:
