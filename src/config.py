@@ -25,3 +25,6 @@ SUPPORTED_STORES = {
     "walmart": "Walmart",
     "scheels": "Scheels",
 }
+
+# Directory used to store downloaded HTML pages for debugging.
+HTML_DIR = DATA_DIR / "html"
